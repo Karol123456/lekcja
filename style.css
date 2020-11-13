@@ -1,0 +1,388 @@
+.nav-links li {
+    list-style: none;
+   
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+      
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 10vh;
+   background-color: rgb(241, 241, 241);
+    
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.10);
+    position: fixed;
+    width: 100%;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 38%;
+   font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+
+.logo{
+    width: 190px;
+   margin-top: 10px;
+}
+
+.zielony{
+    color: rgb(127, 196, 25);
+}
+
+.header{
+    width: 1920px;
+    height: 550px;
+}
+
+.tlonapis{
+    position: absolute;
+    top: 500px;
+    font-size: 22px;
+    color: rgb(196, 194, 194);
+    margin: 0 auto;
+    margin-left: 42%;
+}
+
+.tloo{
+   
+  background-image: url(unknown.png);
+    width: 1903px;
+    height: 600px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+    grid-gap: 20px;
+    grid-row: 20px;
+}
+
+.grid2 img {
+    width: 300px;
+}
+
+.napisss{
+   text-align: center;
+   font-size: 25px;
+   height: 19.5%;
+   background-color: rgba(56,53,53,0.541);
+color: white;
+}
+
+.tlonanapis{
+   width: 30%;
+}
+
+.zielone{
+    background-color: rgb(33, 250, 33);
+    min-height: 250px;
+}
+
+.niebieskie{
+  min-height: 250px;
+    background-color: cornflowerblue;
+}
+
+.gora{
+    color: white;
+    font-size: 45px;
+    margin: 0 auto;
+    margin-left: 45%;
+    margin-top: 20%;
+}
+
+.dol{
+    color: white;
+    font-size: 45px;
+    margin: 0 auto;
+    margin-left: 45%;
+    margin-top: 27%;
+}
+
+.napisydol{
+    color: white;
+    margin-left: 37%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.napisygora{
+    color: white;
+    margin-left: 37%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.border{
+    width: 40px;
+    border: 1px solid white;
+    margin-left: 45.5%;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+    grid-gap: 20px;
+    grid-row: 20px;
+}
+
+
+.grid3 img {
+    width: 300px;
+}
+
+.border2{
+    border: 1px solid rgb(190, 190, 190);
+    height: 60px;
+    width: 550px;
+    margin-left: 4%;
+}
+
+.napisrr{
+    
+    margin-left: 6%;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.plusik{
+    margin-left: 85%;
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.paus{
+    height: 80%;
+}
+
+.satysfakcja{
+    width: 400px;
+    position: absolute;
+    margin-left: 39.3%;
+    top: 1270px;
+}
+
+.border3{
+    border: 1px solid rgb(182, 181, 181);
+    width: 550px;
+    height: 250px;
+    
+}
+
+.border4{
+    border: 1px solid rgb(182, 181, 181);
+    width: 500px;
+    margin-left: 4%;
+    border-width: thin;
+}
+
+.przerwa{
+    height: 10px;
+}
+
+.oddzielenie{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.mobilka{
+    position: absolute;
+    font-size: 45px;
+    margin-left: 65%;
+    top: 1320px;
+}
+
+.make{
+    margin-left: 70%;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(146, 230, 22);
+    top: 1300px;
+    position: absolute;
+}
+
+.make2{
+    margin-left: 70%;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    top: 1330px;
+    position: absolute;
+}
+
+.texcik{
+    font-size: 45px;
+    margin-left: 64.5%;
+    position: absolute;
+    top: 1410px;
+}
+
+.comment{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(146, 230, 22);
+    position: absolute;
+    top: 1390px;
+    margin-left: 70%;
+}
+
+.comment2{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    position: absolute;
+    top: 1420px;
+    margin-left: 70%;
+}
+
+.markerek{
+    font-size: 40px;
+    margin-left: 64.5%;
+    position: absolute;
+    top: 1500px;
+}
+
+.marker{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(146, 230, 22);
+    position: absolute;
+    top: 1480px;
+    margin-left: 70%;
+}
+
+.marker2{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    position: absolute;
+    top: 1515px;
+    margin-left: 70%;
+}
+
+.work{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    height: 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+.szare{
+    background-color: rgb(230, 228, 228);
+    max-width: 1200px;
+    height: 210px;
+    margin-left: 19%;
+}
+
+.ikony{
+    display: flex;
+    margin-left: 6%;
+    margin-bottom: 5px;
+}
+
+.ikony img {
+    width: 140px;
+}
+
+.padding{
+    padding: 20px;
+}
+
+.czarne{
+    background-color: rgb(70, 68, 68);
+    height: 75px;
+}
+
+.malynapis{
+    font-size: 13px;
+    color: white;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.ikonyy{
+    position: absolute;
+    margin-left: 50%;
+    color: white;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 20px;
+}
+.malynapis2{
+    font-size: 13px;
+    margin-top: 30px;
+    color: white;
+    margin-left: 88%;
+    position: absolute;
+
+}
+
+.ikonyy2{
+    position: absolute;
+    margin-left: 52%;
+    color: white;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 20px;
+}
+
+.ikonyy3{
+    position: absolute;
+    margin-left: 48%;
+    color: white;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 20px;
+}
+.ikonyy4{
+    position: absolute;
+    margin-left: 46%;
+    color: white;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 20px;
+}
+
+
+.ikonyy5{
+    position: absolute;
+    margin-left: 54%;
+    color: white;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 20px;
+}
